@@ -1,7 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    var a: Int = 123
+    var nullable: String? = null
 
-    println(a)
+    println(nullable)
 }
