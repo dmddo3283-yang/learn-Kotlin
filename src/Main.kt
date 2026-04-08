@@ -1,7 +1,10 @@
 fun main() {
-    var beInt = "123"
-    var realInt = beInt.toInt()
+    var intArr = arrayOf(1, 2, 3, 4, 5)
 
-    println(beInt::class.simpleName)
-    println(realInt::class.simpleName)
+    var nullArr = arrayOfNulls<Int>(5)
+
+    intArr[0] = 1
+    for (i in intArr) {
+        println(i)
+    }
 }
