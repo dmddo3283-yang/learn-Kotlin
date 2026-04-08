@@ -3,8 +3,15 @@ fun main() {
 
     var nullArr = arrayOfNulls<Int>(5)
 
-    intArr[0] = 1
+    intArr[0] = 3
     for (i in intArr) {
         println(i)
+    }
+
+    println()
+
+    for (item in nullArr.indices) {
+        nullArr[item] = item + 1
+        println(nullArr[item])
     }
 }
