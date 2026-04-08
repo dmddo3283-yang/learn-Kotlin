@@ -1,17 +1,12 @@
 fun main() {
-    var intArr = arrayOf(1, 2, 3, 4, 5)
+    var arr: Array<Int> = arrayOf(1,2,3)
+    println(sum(arr))
+}
 
-    var nullArr = arrayOfNulls<Int>(5)
-
-    intArr[0] = 3
-    for (i in intArr) {
-        println(i)
+fun sum(arr: Array<Int>): Int {
+    var sum = 0
+    for (i in arr.indices) {
+        sum += arr[i]
     }
-
-    println()
-
-    for (item in nullArr.indices) {
-        nullArr[item] = item + 1
-        println(nullArr[item])
-    }
+    return sum
 }
