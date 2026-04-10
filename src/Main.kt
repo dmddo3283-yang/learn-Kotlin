@@ -1,6 +1,4 @@
 fun main() {
     var arr: Array<Int> = arrayOf(1,2,3)
-    println(sumArr(arr))
+    println(arr is Array<Int>)
 }
-
-fun sumArr(arr: Array<Int>) = arr.sum()
