@@ -1,3 +1,4 @@
 fun main() {
-    for (i in 10 downTo 1) println(i) // 안녕 양정우 나 이규민인데 너 너무 좋아서 미칠것 같아 나랑 결혼하자
+    var person1 = Person("양정우", 18);
+    println("안녕하세요, 저는 ${person1.name}이고, 나이는 ${person1.age}세입니다!")
 }
