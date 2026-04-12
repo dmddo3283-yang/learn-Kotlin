@@ -1,6 +1,6 @@
 fun main() {
-    var person1 = Person("양정우", 18)
-    person1.printMe()
-    var person2 = Person("김진용")
-    person2.printMe()
+    var dog1 = Animal("뽀삐", 3, "dog")
+    dog1.introduce()
+    var dog2 = Dog("코코", 4)
+    dog2.introduce()
 }
