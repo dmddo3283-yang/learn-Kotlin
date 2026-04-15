@@ -1,5 +1,5 @@
-open class Animal(var name: String, var age: Int, var type: String) {
-    fun introduce() {
-        println("저는 ${type} ${name}이고, ${age}살입니다.")
+open class Animal {
+    open fun eat() {
+        println("음식을 먹습니다.")
     }
 }
