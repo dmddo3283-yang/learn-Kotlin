@@ -1,5 +1,5 @@
 fun main() {
-    var tiger = Tiger()
-    tiger.eat()
-    tiger.move()
+    var dog = Dog()
+    dog.eat()
+    dog.run()
 }
