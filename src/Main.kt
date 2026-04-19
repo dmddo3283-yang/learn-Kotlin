@@ -1,5 +1,11 @@
 fun main() {
     b(::a)
+
+    var c: (String) -> Unit = {
+        str -> print("$str 람다함수")
+    }
+
+    b(c)
 }
 
 fun a(str: String) {
