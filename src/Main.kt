@@ -1,5 +1,5 @@
 fun main() {
-
+    b(::a)
 }
 
 fun a(str: String) {
