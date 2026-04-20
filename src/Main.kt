@@ -1,13 +1,9 @@
 fun main() {
-
-    var calculate: (Int, Int) -> Int = {a, b ->
-        println(a)
-        println(b)
-
-        a+b
+    var book1 = Book("자바를 자바라", 18000).apply {
+        name = "[초특가] " + name
+        discount()
     }
 
-    var result = calculate(3, 9)
-    println("결과: $result")
+    println(book1.toString())
 }
 
