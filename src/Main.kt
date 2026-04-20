@@ -4,6 +4,10 @@ fun main() {
         discount()
     }
 
+    book1.run {
+        println("상품명: ${name}, 가격: ${price}원")
+    }
+
     println(book1.toString())
 }
 
