@@ -1,17 +1,13 @@
 fun main() {
-    b(::a)
 
-    var c: (String) -> Unit = {
-        str -> print("$str 람다함수")
+    var calculate: (Int, Int) -> Int = {a, b ->
+        println(a)
+        println(b)
+
+        a+b
     }
 
-    b(c)
+    var result = calculate(3, 9)
+    println("결과: $result")
 }
 
-fun a(str: String) {
-    println("$str 함수 a")
-}
-
-fun b(function: (String) -> Unit) {
-    function("b가 호출함")
-}
